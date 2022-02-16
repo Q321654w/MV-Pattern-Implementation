@@ -1,4 +1,6 @@
-﻿using UnityEngine;
+﻿using BehaviourTrees;
+using Features.BehaviourTrees;
+using UnityEngine;
 
 namespace MVQ
 {
@@ -41,7 +43,7 @@ namespace MVQ
             _animator.SetFloat(_sourceId, currentValue);
         }
 
-        public void Reset()
+        public void Exit()
         {
             _animator.SetFloat(_sourceId, _defaultValue);
         }

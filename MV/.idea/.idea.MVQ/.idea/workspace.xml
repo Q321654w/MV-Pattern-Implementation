@@ -20,44 +20,75 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fecdbb9d-0341-4119-9149-21e51bc7c647" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/123.controller.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Features/.idea/.idea.MVQ/.idea/.idea.MVQ.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Features/.idea/.idea.MV/.idea/.idea.MV.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Features/.idea/.idea.MVQ/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Features/.idea/.idea.MV/.idea/.name" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Features/.idea/.idea.MVQ/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Features/.idea/.idea.MV/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Features/.idea/.idea.MVQ/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Features/.idea/.idea.MV/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Features/.idea/.idea.MVQ/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Features/.idea/.idea.MV/.idea/indexLayout.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Features/.idea/.idea.MVQ/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Features/.idea/.idea.MV/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Features/.idea/.idea.MVQ/.idea/projectSettingsUpdater.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Features/.idea/.idea.MV/.idea/projectSettingsUpdater.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Features/.idea/.idea.MVQ/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Features/.idea/.idea.MV/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Features/.idea/.idea.MVQ/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Features/.idea/.idea.MV/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Features/.idea/.idea.MVQ/riderModule.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Features/.idea/.idea.MV/riderModule.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Features/MV/AnimatorBoolChangeNode.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Features/MV/AnimatorFloatChangeNode.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Features/MV/AnimatorIntChangeNode.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Features/MV/BehaviourTrees.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Features/MV/EmptyNode.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Features/MV/Health.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Features/MV/HealthFactory.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Features/MV/IGameEntityView.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Features/MV/INode.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Features/MV/IValue.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Features/MV/IView.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Features/MV/MVQ.csproj.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Features/MV/MonoBehaviourView.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Features/MV/Properties.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Features/MV/RobotConfig.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Features/MV/RobotFactory.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Features/MV/RobotModel.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Features/MV/RobotViewConfig.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Features/MV/RobotViewFactory.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Features/MV/Test.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Features/MV/ViewBehaviour.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Features/MV/bin.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Features/MV/obj.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Features/MVQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Features/MV.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Features/MVQ.sln.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Features/MV.sln.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Robot.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Robot.prefab.meta" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Features/BehaviourTrees/.idea.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Features/BehaviourTrees/.idea/.idea.BehaviourThree.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Features/BehaviourTrees/.idea/.idea.BehaviourThree/.idea.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Features/BehaviourTrees/.idea/.idea.BehaviourThree/.idea/.idea.BehaviourThree.iml.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Features/BehaviourTrees/.idea/.idea.BehaviourThree/.idea/contentModel.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Features/BehaviourTrees/.idea/.idea.BehaviourThree/.idea/contentModel.xml.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Features/BehaviourTrees/.idea/.idea.BehaviourThree/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Features/BehaviourTrees/.idea/.idea.BehaviourThree/.idea/encodings.xml.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Features/BehaviourTrees/.idea/.idea.BehaviourThree/.idea/indexLayout.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Features/BehaviourTrees/.idea/.idea.BehaviourThree/.idea/indexLayout.xml.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Features/BehaviourTrees/.idea/.idea.BehaviourThree/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Features/BehaviourTrees/.idea/.idea.BehaviourThree/.idea/modules.xml.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Features/BehaviourTrees/.idea/.idea.BehaviourThree/.idea/projectSettingsUpdater.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Features/BehaviourTrees/.idea/.idea.BehaviourThree/.idea/projectSettingsUpdater.xml.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Features/BehaviourTrees/.idea/.idea.BehaviourThree/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Features/BehaviourTrees/.idea/.idea.BehaviourThree/.idea/workspace.xml.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Features/BehaviourTrees/.idea/.idea.BehaviourThree/riderModule.iml.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Features/BehaviourTrees/AndCombiner.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Features/BehaviourTrees/BehaviorTreeNode.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Features/BehaviourTrees/BehaviourTree.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Features/BehaviourTrees/BehaviourTree.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Features/BehaviourTrees/CollisionNode.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Features/BehaviourTrees/ConstantNode.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Features/BehaviourTrees/CustomCollider.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Features/BehaviourTrees/DebugNode.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Features/BehaviourTrees/DelayNode.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Features/BehaviourTrees/INode.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Features/BehaviourTrees/INodes/Implementations/BehaviorTreeNode.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Features/BehaviourTrees/INodes/Implementations/Combiners/AndCombiner.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Features/BehaviourTrees/INodes/Implementations/Combiners/NodeCombiner.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Features/BehaviourTrees/INodes/Implementations/Combiners/OrCombiner.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Features/BehaviourTrees/INodes/Implementations/DebugNodes/CollisionNode.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Features/BehaviourTrees/INodes/Implementations/DebugNodes/ConstantNode.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Features/BehaviourTrees/INodes/Implementations/DebugNodes/CustomCollider.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Features/BehaviourTrees/INodes/Implementations/DebugNodes/DebugNode.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Features/BehaviourTrees/INodes/Implementations/DelayNode.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Features/BehaviourTrees/INodes/Implementations/InvertedNode.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Features/BehaviourTrees/INodes/Implementations/LoopNode.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Features/BehaviourTrees/INodes/Implementations/NodeCollections/NodeSequenceDecorator.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Features/BehaviourTrees/INodes/Implementations/NodeCollections/WhileAllNode.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Features/BehaviourTrees/INodes/Implementations/NodeCollections/WhileAnyNode.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Features/BehaviourTrees/INodes/Implementations/NodeDecorator.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Features/BehaviourTrees/INodes/Implementations/TimedNode.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Features/BehaviourTrees/INodes/Implementations/Timer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Features/BehaviourTrees/InvertedNode.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Features/BehaviourTrees/LoopNode.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Features/BehaviourTrees/NodeCombiner.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Features/BehaviourTrees/NodeDecorator.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Features/BehaviourTrees/NodeQueue.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Features/BehaviourTrees/NodeSequenceDecorator.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Features/BehaviourTrees/OrCombiner.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Features/BehaviourTrees/TimedNode.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Features/BehaviourTrees/Timer.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Features/BehaviourTrees/WhileAllNode.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Features/BehaviourTrees/WhileAnyNode.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.MVQ/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MVQ/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.MVQ/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MVQ/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Features/MV/Views/IGameEntityView.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Features/MV/Views/IValue.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Features/MV/IValues/IValue.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Features/MV/Views/IView.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Features/MV/Views/IView.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Features/MV/Views/Implementations/MonoBehaviourView.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Features/MV/Views/Implementations/MonoBehaviourView.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Features/MV/Views/ViewBehaviour/Nodes/AnimatorBoolChangeNode.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Features/BehaviourTrees/INodes/Implementations/AnimatorNodes/AnimatorBoolChangeNode.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Features/MV/Views/ViewBehaviour/Nodes/AnimatorFloatChangeNode.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Features/BehaviourTrees/INodes/Implementations/AnimatorNodes/AnimatorFloatChangeNode.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Features/MV/Views/ViewBehaviour/Nodes/AnimatorIntChangeNode.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Features/BehaviourTrees/INodes/Implementations/AnimatorNodes/AnimatorIntChangeNode.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Features/MV/Views/ViewBehaviour/Nodes/EmptyNode.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Features/BehaviourTrees/INodes/Implementations/AnimatorNodes/EmptyNode.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Features/MV/Views/ViewBehaviour/Nodes/INode.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Features/BehaviourTrees/INodes/INode.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Features/MV/Views/ViewBehaviour/ViewBehaviour.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Features/Robots/Views/RobotViewFactory.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Features/Robots/Views/RobotViewFactory.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Features/Tests/Test.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Features/Tests/Test.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,28 +99,34 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Features/MV/Properties/AssemblyInfo.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Features/MV/Views/ViewBehaviour/Nodes/AnimatorFloatChangeNode.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Features/MV/Views/ViewBehaviour/Nodes/EmptyNode.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Features/BehaviourTrees/INodes/Implementations/NodeCollections/NodeSequenceDecorator.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Features/BehaviourTrees/INodes/Implementations/AnimatorNodes/AnimatorFloatChangeNode.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Features/BehaviourTrees/INodes/Implementations/AnimatorNodes/EmptyNode.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Features/Tests/Test.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Features/MV/Views/Implementations/MonoBehaviourView.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Features/Robots/Models/RobotModel.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Features/Robots/Models/RobotFactory.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Features/MV/Views/ViewBehaviour/ViewBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Features/MV/Views/IView.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Features/MV/IValues/IValue.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Features/Healthes/Health.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Features/BehaviourTrees/INodes/Implementations/BehaviorTreeNode.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Features/BehaviourTrees/INodes/Implementations/DebugNodes/CustomCollider.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Features/MV/obj/Debug/.NETFramework,Version=v4.8.AssemblyAttributes.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Features/BehaviourTrees/INodes/Implementations/NodeCollections/WhileAllNode.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Features/BehaviourTrees/BehaviourTree.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Features/BehaviourTrees/INodes/Implementations/NodeCollections/WhileAnyNode.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Features/BehaviourTrees/INodes/Implementations/Combiners/AndCombiner.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Features/MV/Properties/AssemblyInfo.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Features/MV/obj/Debug.meta" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Features/Healthes/HealthFactory.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/AD0A7939-8190-48A0-A161-F66558C98867/30/31ad7597/Animator.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Features/MV/Views/ViewBehaviour/Nodes/INode.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Features/MV/Views/IGameEntityView.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Features/MV/Views/IView.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Features/MV/Views/IValue.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Features/Robots/Models/RobotConfig.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Features/Healthes/Health.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Features/BehaviourTrees/INodes/INode.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Features/Robots/Views/RobotViewFactory.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Features/MV/Views/ViewBehaviour/Nodes/AnimatorBoolChangeNode.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Features/MV/Views/ViewBehaviour/Nodes/AnimatorIntChangeNode.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Features/BehaviourTrees/INodes/Implementations/AnimatorNodes/AnimatorBoolChangeNode.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Features/BehaviourTrees/INodes/Implementations/AnimatorNodes/AnimatorIntChangeNode.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/5A92AD44-406B-4318-9677-3A464E9EC96E/9a/b2610564/Array.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Features/Robots/Views/RobotViewConfig.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Features/MV/obj/Debug/.NETFramework,Version=v4.8.AssemblyAttributes.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -114,6 +151,27 @@
         <option value="$PROJECT_DIR$/Assets/Features/MVQ/RobotViewFactory.cs" />
         <option value="$PROJECT_DIR$/Assets/Features/MVQ/RobotConfig.cs" />
         <option value="$PROJECT_DIR$/Assets/Features/MVQ/RobotFactory.cs" />
+        <option value="$PROJECT_DIR$/Assets/Features/MV/Views/IView.cs" />
+        <option value="$PROJECT_DIR$/Assets/Features/BehaviourTrees/BehaviourTree.cs" />
+        <option value="$PROJECT_DIR$/Assets/Features/MV/Views/Implementations/MonoBehaviourView.cs" />
+        <option value="$PROJECT_DIR$/Assets/Features/Robots/Views/RobotViewFactory.cs" />
+        <option value="$PROJECT_DIR$/Assets/Features/MV/Views/ViewBehaviour/Nodes/EmptyNode.cs" />
+        <option value="$PROJECT_DIR$/Assets/Features/MV/Views/ViewBehaviour/Nodes/AnimatorIntChangeNode.cs" />
+        <option value="$PROJECT_DIR$/Assets/Features/MV/Views/ViewBehaviour/Nodes/AnimatorFloatChangeNode.cs" />
+        <option value="$PROJECT_DIR$/Assets/Features/MV/Views/ViewBehaviour/Nodes/AnimatorBoolChangeNode.cs" />
+        <option value="$PROJECT_DIR$/Assets/Features/Tests/Test.cs" />
+        <option value="$PROJECT_DIR$/Assets/Features/Robots/Models/RobotModel.cs" />
+        <option value="$PROJECT_DIR$/Assets/Features/BehaviourTrees/INode.cs" />
+        <option value="$PROJECT_DIR$/Assets/Features/BehaviourTrees/AndCombiner.cs" />
+        <option value="$PROJECT_DIR$/Assets/Features/BehaviourTrees/Selector.cs" />
+        <option value="$PROJECT_DIR$/Assets/Features/BehaviourTrees/Sequence.cs" />
+        <option value="$PROJECT_DIR$/Assets/Features/BehaviourTrees/WhileAllNode.cs" />
+        <option value="$PROJECT_DIR$/Assets/Features/BehaviourTrees/WhileAnyNode.cs" />
+        <option value="$PROJECT_DIR$/Assets/Features/BehaviourTrees/INodes/Implementations/Sequence.cs" />
+        <option value="$PROJECT_DIR$/Assets/Features/BehaviourTrees/INodes/Implementations/NodeQueue.cs" />
+        <option value="$PROJECT_DIR$/Assets/Features/BehaviourTrees/INodes/Implementations/NodeCollections/NodeSequenceDecorator.cs" />
+        <option value="$PROJECT_DIR$/Assets/Features/BehaviourTrees/INodes/Implementations/NodeCollections/Selector.cs" />
+        <option value="$PROJECT_DIR$/Assets/Features/BehaviourTrees/INodes/Implementations/NodeCollections/Sequence.cs" />
       </list>
     </option>
   </component>
@@ -158,6 +216,8 @@
       <workItem from="1644859445391" duration="5692000" />
       <workItem from="1644865623200" duration="612000" />
       <workItem from="1644930742447" duration="320000" />
+      <workItem from="1644931160503" duration="6740000" />
+      <workItem from="1644941554543" duration="592000" />
     </task>
     <servers />
   </component>
@@ -247,9 +307,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="375" key="GridCell.Tab.3.right/0.0.1920.1040@0.0.1920.1040" timestamp="1644865183621" />
-    <state x="794" y="221" key="RiderGenerateDialog" timestamp="1644862281199">
+    <state x="794" y="221" key="RiderGenerateDialog" timestamp="1644933373597">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="794" y="221" key="RiderGenerateDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1644862281199" />
+    <state x="794" y="221" key="RiderGenerateDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1644933373597" />
   </component>
 </project>

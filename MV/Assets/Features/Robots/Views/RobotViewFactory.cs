@@ -1,5 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
+using BehaviourTrees;
+using Features.BehaviourTrees;
 using UnityEngine;
 
 namespace MVQ
@@ -9,7 +11,7 @@ namespace MVQ
         [SerializeField] private string _sourceId;
         [SerializeField] private RobotViewConfig[] _configs;
 
-        public IGameEntityView Create(string id, RobotModel robotModel)
+        public IView Create(string id, RobotModel robotModel)
         {
             var config = _configs.Single(s => s.Id == id);
 
@@ -21,14 +23,15 @@ namespace MVQ
             var tree = new Dictionary<INode, IEnumerable<INode>>()
             {
                 {
-                    rootNode, new List<INode>()
+                    rootNode,
+                    new List<INode>()
                     {
                         new AnimatorIntChangeNode(robotModel.Health(), _sourceId, animator),
                     }
                 },
             };
 
-            var customAnimator = new ViewBehaviour(tree, rootNode);
+            var customAnimator = new BehaviourTree(tree, rootNode);
             view.Initialize(customAnimator);
 
             return view;

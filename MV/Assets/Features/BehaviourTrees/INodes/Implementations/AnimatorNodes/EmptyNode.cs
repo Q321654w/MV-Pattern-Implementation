@@ -1,4 +1,7 @@
-﻿namespace MVQ
+﻿using BehaviourTrees;
+using Features.BehaviourTrees;
+
+namespace MVQ
 {
     internal class EmptyNode : INode
     {
@@ -16,8 +19,9 @@
         {
         }
 
-        public void Reset()
+        public void Exit()
         {
+            
         }
     }
 }

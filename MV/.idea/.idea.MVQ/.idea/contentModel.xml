@@ -7,31 +7,80 @@
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="Features" t="Include">
+          <e p="BehaviourTrees" t="Include">
+            <e p=".idea.meta" t="Include" />
+            <e p="AndCombiner.cs.meta" t="Include" />
+            <e p="BehaviorTreeNode.cs.meta" t="Include" />
+            <e p="BehaviourTree.cs" t="Include" />
+            <e p="BehaviourTree.cs.meta" t="Include" />
+            <e p="CollisionNode.cs.meta" t="Include" />
+            <e p="ConstantNode.cs.meta" t="Include" />
+            <e p="CustomCollider.cs.meta" t="Include" />
+            <e p="DebugNode.cs.meta" t="Include" />
+            <e p="DelayNode.cs.meta" t="Include" />
+            <e p="INode.cs.meta" t="Include" />
+            <e p="INodes" t="Include">
+              <e p="Implementations" t="Include">
+                <e p="AnimatorNodes" t="Include">
+                  <e p="AnimatorBoolChangeNode.cs" t="Include" />
+                  <e p="AnimatorFloatChangeNode.cs" t="Include" />
+                  <e p="AnimatorIntChangeNode.cs" t="Include" />
+                  <e p="EmptyNode.cs" t="Include" />
+                </e>
+                <e p="BehaviorTreeNode.cs" t="Include" />
+                <e p="Combiners" t="Include">
+                  <e p="AndCombiner.cs" t="Include" />
+                  <e p="NodeCombiner.cs" t="Include" />
+                  <e p="OrCombiner.cs" t="Include" />
+                </e>
+                <e p="DebugNodes" t="Include">
+                  <e p="CollisionNode.cs" t="Include" />
+                  <e p="ConstantNode.cs" t="Include" />
+                  <e p="CustomCollider.cs" t="Include" />
+                  <e p="DebugNode.cs" t="Include" />
+                </e>
+                <e p="DelayNode.cs" t="Include" />
+                <e p="InvertedNode.cs" t="Include" />
+                <e p="LoopNode.cs" t="Include" />
+                <e p="NodeCollections" t="Include">
+                  <e p="NodeSequenceDecorator.cs" t="Include" />
+                  <e p="WhileAllNode.cs" t="Include" />
+                  <e p="WhileAnyNode.cs" t="Include" />
+                </e>
+                <e p="NodeDecorator.cs" t="Include" />
+                <e p="TimedNode.cs" t="Include" />
+                <e p="Timer.cs" t="Include" />
+              </e>
+              <e p="INode.cs" t="Include" />
+            </e>
+            <e p="InvertedNode.cs.meta" t="Include" />
+            <e p="LoopNode.cs.meta" t="Include" />
+            <e p="NodeCombiner.cs.meta" t="Include" />
+            <e p="NodeDecorator.cs.meta" t="Include" />
+            <e p="NodeQueue.cs.meta" t="Include" />
+            <e p="NodeSequenceDecorator.cs.meta" t="Include" />
+            <e p="OrCombiner.cs.meta" t="Include" />
+            <e p="TimedNode.cs.meta" t="Include" />
+            <e p="Timer.cs.meta" t="Include" />
+            <e p="WhileAllNode.cs.meta" t="Include" />
+            <e p="WhileAnyNode.cs.meta" t="Include" />
+          </e>
           <e p="Healthes" t="Include">
             <e p="Health.cs" t="Include" />
             <e p="HealthFactory.cs" t="Include" />
           </e>
           <e p="MV" t="Include">
+            <e p="IValues" t="Include">
+              <e p="IValue.cs" t="Include" />
+            </e>
             <e p="Properties" t="Include">
               <e p="AssemblyInfo.cs" t="Include" />
             </e>
             <e p="Views" t="Include">
-              <e p="IGameEntityView.cs" t="Include" />
               <e p="Implementations" t="Include">
                 <e p="MonoBehaviourView.cs" t="Include" />
               </e>
-              <e p="IValue.cs" t="Include" />
               <e p="IView.cs" t="Include" />
-              <e p="ViewBehaviour" t="Include">
-                <e p="Nodes" t="Include">
-                  <e p="AnimatorBoolChangeNode.cs" t="Include" />
-                  <e p="AnimatorFloatChangeNode.cs" t="Include" />
-                  <e p="AnimatorIntChangeNode.cs" t="Include" />
-                  <e p="EmptyNode.cs" t="Include" />
-                  <e p="INode.cs" t="Include" />
-                </e>
-                <e p="ViewBehaviour.cs" t="Include" />
-              </e>
             </e>
           </e>
           <e p="MV.csproj" t="Include" />

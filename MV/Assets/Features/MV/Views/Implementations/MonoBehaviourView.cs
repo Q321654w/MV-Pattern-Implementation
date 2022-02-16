@@ -1,12 +1,13 @@
-﻿using UnityEngine;
+﻿using BehaviourTrees;
+using UnityEngine;
 
 namespace MVQ
 {
-    public class MonoBehaviourView : MonoBehaviour, IGameEntityView
+    public class MonoBehaviourView : MonoBehaviour, IView
     {
-        private ViewBehaviour _viewBehaviour;
+        private BehaviourTree _viewBehaviour;
         
-        public void Initialize(ViewBehaviour viewBehaviour)
+        public void Initialize(BehaviourTree viewBehaviour)
         {
             _viewBehaviour = viewBehaviour;
         }

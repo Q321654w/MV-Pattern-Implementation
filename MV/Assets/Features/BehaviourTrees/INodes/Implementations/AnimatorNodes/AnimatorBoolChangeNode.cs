@@ -1,4 +1,6 @@
-﻿using UnityEngine;
+﻿using BehaviourTrees;
+using Features.BehaviourTrees;
+using UnityEngine;
 
 namespace MVQ
 {
@@ -40,7 +42,7 @@ namespace MVQ
             _animator.SetBool(_sourceId, _changed);
         }
 
-        public void Reset()
+        public void Exit()
         {
             _animator.SetBool(_sourceId, _defaultValue);
         }

@@ -1,10 +1,10 @@
-﻿namespace MVQ
+﻿namespace Features.BehaviourTrees
 {
     public interface INode
     {
-        void Enter();
         bool Active();
+        void Enter();
         void Execute();
-        void Reset();
+        void Exit();
     }
 }
