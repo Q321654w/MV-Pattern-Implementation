@@ -1,8 +1,6 @@
-﻿using BehaviourTrees;
-using Features.BehaviourTrees;
-using UnityEngine;
+﻿using UnityEngine;
 
-namespace MVQ
+namespace Features.BehaviourTrees.INodes.Implementations.AnimatorNodes
 {
     public class AnimatorBoolChangeNode : INode
     {
@@ -10,8 +8,7 @@ namespace MVQ
         private readonly string _sourceId;
         private readonly bool _defaultValue;
         private readonly Animator _animator;
-
-        private bool _changed;
+        
         private bool _lastValue;
 
         public AnimatorBoolChangeNode(IValue<bool> value, string sourceId, bool defaultValue, Animator animator)
@@ -22,24 +19,22 @@ namespace MVQ
             _animator = animator;
         }
 
+        public Status ExecutionStatus()
+        {
+            var changed = _lastValue != _value.Value();
+            return changed ? Status.Success : Status.Running;
+        }
+
         public void Enter()
         {
             Execute();
         }
 
-        public bool Active()
-        {
-            return _value.Value();
-        }
-
         public void Execute()
         {
-            var value = _value.Value();
-            
-            _changed = value != _lastValue;
-            _lastValue = value;
-
-            _animator.SetBool(_sourceId, _changed);
+            var currentValue = _value.Value();
+            _animator.SetBool(_sourceId, currentValue);
+            _lastValue = currentValue;
         }
 
         public void Exit()

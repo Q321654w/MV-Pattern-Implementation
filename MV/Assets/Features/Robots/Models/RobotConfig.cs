@@ -1,16 +1,17 @@
-﻿using UnityEngine;
+﻿using Features.Robots.Views;
+using UnityEngine;
 
-namespace MVQ
+namespace Features.Robots.Models
 {
     [CreateAssetMenu(menuName = "RobotConfig")]
     internal class RobotConfig : ScriptableObject
     {
-        [SerializeField] private int _startHitPoints;
+        [SerializeField] private RobotModelConfig _modelConfig;
+        [SerializeField] private RobotViewConfig _viewConfig;
         [SerializeField] private string _id;
-        [SerializeField] private string _viewId;
 
-        public int StartHitPoints => _startHitPoints;
+        public RobotModelConfig ModelConfig => _modelConfig;
+        public RobotViewConfig ViewConfig => _viewConfig;
         public string Id => _id;
-        public string ViewId => _viewId;
     }
 }

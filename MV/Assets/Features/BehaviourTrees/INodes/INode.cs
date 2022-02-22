@@ -1,8 +1,8 @@
-﻿namespace Features.BehaviourTrees
+﻿﻿namespace Features.BehaviourTrees.INodes
 {
     public interface INode
     {
-        bool Active();
+        Status ExecutionStatus();
         void Enter();
         void Execute();
         void Exit();

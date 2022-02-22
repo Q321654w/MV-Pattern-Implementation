@@ -2,98 +2,67 @@
 <project version="4">
   <component name="ContentModelStore">
     <e p="C:\Users\PC\AppData\Local\JetBrains\Rider2020.1\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\PC\AppData\Local\JetBrains\Rider2020.1\resharper-host\Local\Transient\ReSharperHost\v201\SolutionCaches\_MVQ.-1150530204.00" t="ExcludeRecursive" />
-    <e p="C:\Users\PC\Desktop\Projects\MV-Pattern-Implementation\MV" t="IncludeRecursive">
+    <e p="C:\Users\PC\AppData\Local\JetBrains\Rider2020.1\resharper-host\Local\Transient\ReSharperHost\v201\SolutionCaches\_MVQ.-131064425.00" t="ExcludeRecursive" />
+    <e p="C:\Users\PC\Desktop\Projects\Common\MV-Pattern-Implementation\MV" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="Features" t="Include">
           <e p="BehaviourTrees" t="Include">
-            <e p=".idea.meta" t="Include" />
-            <e p="AndCombiner.cs.meta" t="Include" />
-            <e p="BehaviorTreeNode.cs.meta" t="Include" />
             <e p="BehaviourTree.cs" t="Include" />
-            <e p="BehaviourTree.cs.meta" t="Include" />
-            <e p="CollisionNode.cs.meta" t="Include" />
-            <e p="ConstantNode.cs.meta" t="Include" />
-            <e p="CustomCollider.cs.meta" t="Include" />
-            <e p="DebugNode.cs.meta" t="Include" />
-            <e p="DelayNode.cs.meta" t="Include" />
-            <e p="INode.cs.meta" t="Include" />
+            <e p="Common" t="Include">
+              <e p="CustomCollider.cs" t="Include" />
+              <e p="Timer.cs" t="Include" />
+            </e>
             <e p="INodes" t="Include">
               <e p="Implementations" t="Include">
+                <e p="Actions" t="Include">
+                  <e p="DebugNode.cs" t="Include" />
+                  <e p="DelayNode.cs" t="Include" />
+                  <e p="PlayParticleNode.cs" t="Include" />
+                </e>
                 <e p="AnimatorNodes" t="Include">
                   <e p="AnimatorBoolChangeNode.cs" t="Include" />
                   <e p="AnimatorFloatChangeNode.cs" t="Include" />
                   <e p="AnimatorIntChangeNode.cs" t="Include" />
-                  <e p="EmptyNode.cs" t="Include" />
+                  <e p="IValue.cs" t="Include" />
                 </e>
-                <e p="BehaviorTreeNode.cs" t="Include" />
-                <e p="Combiners" t="Include">
-                  <e p="AndCombiner.cs" t="Include" />
-                  <e p="NodeCombiner.cs" t="Include" />
-                  <e p="OrCombiner.cs" t="Include" />
+                <e p="Composites" t="Include">
+                  <e p="NodeCollectionDecorator.cs" t="Include" />
+                  <e p="Parallel.cs" t="Include" />
+                  <e p="ParallelComplete.cs" t="Include" />
+                  <e p="ParallelSelector.cs" t="Include" />
+                  <e p="Selector.cs" t="Include" />
+                  <e p="Sequence.cs" t="Include" />
                 </e>
                 <e p="DebugNodes" t="Include">
                   <e p="CollisionNode.cs" t="Include" />
+                  <e p="EmptyNode.cs" t="Include" />
+                </e>
+                <e p="Decorator" t="Include">
+                  <e p="BehaviorTreeNode.cs" t="Include" />
                   <e p="ConstantNode.cs" t="Include" />
-                  <e p="CustomCollider.cs" t="Include" />
-                  <e p="DebugNode.cs" t="Include" />
+                  <e p="InvertedNode.cs" t="Include" />
+                  <e p="LoopNode.cs" t="Include" />
+                  <e p="NodeDecorator.cs" t="Include" />
+                  <e p="TimedNode.cs" t="Include" />
+                  <e p="WaitUntilFailure.cs" t="Include" />
+                  <e p="WaitUntilSuccess.cs" t="Include" />
                 </e>
-                <e p="DelayNode.cs" t="Include" />
-                <e p="InvertedNode.cs" t="Include" />
-                <e p="LoopNode.cs" t="Include" />
-                <e p="NodeCollections" t="Include">
-                  <e p="NodeSequenceDecorator.cs" t="Include" />
-                  <e p="WhileAllNode.cs" t="Include" />
-                  <e p="WhileAnyNode.cs" t="Include" />
-                </e>
-                <e p="NodeDecorator.cs" t="Include" />
-                <e p="TimedNode.cs" t="Include" />
-                <e p="Timer.cs" t="Include" />
               </e>
               <e p="INode.cs" t="Include" />
+              <e p="Status.cs" t="Include" />
             </e>
-            <e p="InvertedNode.cs.meta" t="Include" />
-            <e p="LoopNode.cs.meta" t="Include" />
-            <e p="NodeCombiner.cs.meta" t="Include" />
-            <e p="NodeDecorator.cs.meta" t="Include" />
-            <e p="NodeQueue.cs.meta" t="Include" />
-            <e p="NodeSequenceDecorator.cs.meta" t="Include" />
-            <e p="OrCombiner.cs.meta" t="Include" />
-            <e p="TimedNode.cs.meta" t="Include" />
-            <e p="Timer.cs.meta" t="Include" />
-            <e p="WhileAllNode.cs.meta" t="Include" />
-            <e p="WhileAnyNode.cs.meta" t="Include" />
           </e>
           <e p="Healthes" t="Include">
             <e p="Health.cs" t="Include" />
             <e p="HealthFactory.cs" t="Include" />
           </e>
-          <e p="MV" t="Include">
-            <e p="IValues" t="Include">
-              <e p="IValue.cs" t="Include" />
-            </e>
-            <e p="Properties" t="Include">
-              <e p="AssemblyInfo.cs" t="Include" />
-            </e>
-            <e p="Views" t="Include">
-              <e p="Implementations" t="Include">
-                <e p="MonoBehaviourView.cs" t="Include" />
-              </e>
-              <e p="IView.cs" t="Include" />
-            </e>
-          </e>
-          <e p="MV.csproj" t="Include" />
           <e p="Robots" t="Include">
             <e p="Models" t="Include">
               <e p="RobotConfig.cs" t="Include" />
               <e p="RobotFactory.cs" t="Include" />
               <e p="RobotModel.cs" t="Include" />
-            </e>
-            <e p="Prefabs" t="Include">
-              <e p="123.controller" t="Include" />
-              <e p="Robot.fbx" t="Include" />
-              <e p="Robot.prefab" t="Include" />
+              <e p="RobotModelConfig.cs" t="Include" />
             </e>
             <e p="Views" t="Include">
               <e p="RobotViewConfig.cs" t="Include" />
@@ -102,6 +71,12 @@
           </e>
           <e p="Tests" t="Include">
             <e p="Test.cs" t="Include" />
+          </e>
+          <e p="Views" t="Include">
+            <e p="Implementations" t="Include">
+              <e p="MonoBehaviourView.cs" t="Include" />
+            </e>
+            <e p="IView.cs" t="Include" />
           </e>
         </e>
       </e>

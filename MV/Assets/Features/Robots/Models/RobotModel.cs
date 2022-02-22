@@ -1,4 +1,6 @@
-﻿namespace MVQ
+﻿using Features.Healthes;
+
+namespace Features.Robots.Models
 {
     public class RobotModel
     {

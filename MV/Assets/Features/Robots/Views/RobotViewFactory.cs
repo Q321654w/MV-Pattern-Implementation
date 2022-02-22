@@ -1,37 +1,36 @@
-﻿using System.Collections.Generic;
-using System.Linq;
-using BehaviourTrees;
+﻿using System.Linq;
 using Features.BehaviourTrees;
+using Features.BehaviourTrees.INodes;
+using Features.BehaviourTrees.INodes.Implementations.Actions;
+using Features.BehaviourTrees.INodes.Implementations.AnimatorNodes;
+using Features.BehaviourTrees.INodes.Implementations.Composites;
+using Features.Robots.Models;
+using Features.Views;
 using UnityEngine;
 
-namespace MVQ
+namespace Features.Robots.Views
 {
     public class RobotViewFactory : MonoBehaviour
     {
+        [SerializeField] private RobotConfig[] _configs;
         [SerializeField] private string _sourceId;
-        [SerializeField] private RobotViewConfig[] _configs;
 
         public IView Create(string id, RobotModel robotModel)
         {
             var config = _configs.Single(s => s.Id == id);
-
-            var view = Instantiate(config.View);
+            var viewConfig = config.ViewConfig;
+            
+            var view = Instantiate(viewConfig.View);
             var animator = view.gameObject.AddComponent<Animator>();
-            animator.runtimeAnimatorController = config.AnimatorController;
+            animator.runtimeAnimatorController = viewConfig.AnimatorController;
 
-            var rootNode = new EmptyNode();
-            var tree = new Dictionary<INode, IEnumerable<INode>>()
+            var rootNode = new Sequence(new INode[] 
             {
-                {
-                    rootNode,
-                    new List<INode>()
-                    {
-                        new AnimatorIntChangeNode(robotModel.Health(), _sourceId, animator),
-                    }
-                },
-            };
+                new AnimatorIntChangeNode(robotModel.Health(), _sourceId , animator),
+                new PlayParticleNode(viewConfig.ParticleSystemPrefab, view.transform)
+            });
 
-            var customAnimator = new BehaviourTree(tree, rootNode);
+            var customAnimator = new BehaviourTree(rootNode);
             view.Initialize(customAnimator);
 
             return view;

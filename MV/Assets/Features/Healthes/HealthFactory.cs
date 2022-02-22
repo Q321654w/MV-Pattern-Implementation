@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace MVQ
+namespace Features.Healthes
 {
     public class HealthFactory : MonoBehaviour
     {
